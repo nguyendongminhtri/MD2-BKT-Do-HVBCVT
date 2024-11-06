@@ -45,7 +45,7 @@ public class Main {
     private static List<Integer> creteSetNumber(int length, Random rand) {
         Set<Integer> setNumber = new HashSet<>();
         while (setNumber.size() < length) {
-            int randomInt = rand.nextInt(10)+1;
+            int randomInt = rand.nextInt(1000)+1;
             setNumber.add(randomInt);
         }
         List<Integer> arrNumber = new ArrayList<>(setNumber);
